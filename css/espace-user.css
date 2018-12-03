@@ -2,14 +2,13 @@
     display: flex;
     justify-content: space-around;
 }
-
 .contenerForm {
     display: flex;
     flex-direction: column;
-    width: 25em;
+    width: 60%;
     margin: auto;
     box-shadow: 4px 4px 2px rgb(211, 208, 208);
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 1em 0em;
 }
 
@@ -30,4 +29,12 @@ form {
 .btn.btn-primary {
     width: 40%;
     align-self: flex-end;
+}
+.oneline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    margin: 2px;
 }
