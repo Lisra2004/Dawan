@@ -1,0 +1,84 @@
+h1 {
+
+    text-align: inherit;
+    border: 3px solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+
+}
+
+body{
+
+    color:black;
+    background-color:white;
+    background-image:url("../img/Ramen.jpg");
+
+}
+
+.entete {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.recherche {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+
+
+}
+
+article {
+
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 100em;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+footer {
+
+    display: flex;
+    text-align: center;
+}
+
+.paragraphe {
+
+    background-color: white;
+    opacity: 0.8;
+margin-top: 100px;
+    padding: 25px;
+}
+
+footer {
+    background-color: white;
+    opacity: 0.8;
+    width: 150px;
+}
+
+.global {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.global li  {
+    max-width: 40%;
+    justify-content: space-around;
+    margin: 15px;
+    flex: 1;
+}
