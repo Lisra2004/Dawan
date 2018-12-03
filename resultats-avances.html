@@ -25,6 +25,7 @@
             <input type="button" value="&#x1F50E">
         </form>
 
+        <hr>
         <div class="form-check">
             Distance possible de recherche<br>
             <input class="form-check-input" type="checkbox" value="" id="dist1">
@@ -38,6 +39,20 @@
                 10km autour
             </label>
         </div>
+        <hr>
+        <div class="form-group">
+            <label for="cuisineSelect">Votre style de cuisine</label>
+            <!--TODO: faire une boucle en bdd ds les style de cuisine deja connu-->
+            <select multiple class="form-control" id="cuisineSelect">
+                <option>Mexicaine</option>
+                <option>Chinoise</option>
+                <option>Française</option>
+                <option>Japonnaise</option>
+                <option>Antillaise</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">C'est parti 🚀</button>
+
     </nav>
 
 
