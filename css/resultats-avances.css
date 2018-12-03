@@ -1,0 +1,25 @@
+.card{
+    width: 18rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+.row{
+    justify-content: center;
+}
+
+.lateral-navbar{
+    max-width: 30%;
+}
+
+.advanced-result{
+    max-width: 65%;
+}
