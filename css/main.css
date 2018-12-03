@@ -51,11 +51,6 @@ ul {
     list-style-type: none;
 }
 
-footer {
-
-    display: flex;
-    text-align: center;
-}
 
 .paragraphe {
 
@@ -66,6 +61,8 @@ margin-top: 100px;
 }
 
 footer {
+    display: flex;
+    text-align: center;
     background-color: white;
     opacity: 0.8;
     width: 150px;
