@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nous rejoindre</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/adhesion.css"/>
+</head>
+<body>
+
+<h1>Formulaire d'adhésion</h1>
+
+<form>
+    <div class="form-group">
+        <label for="name">Votre Nom: </label>
+        <input type="text" class="form-control" id="name"  placeholder="Votre Nom">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Votre email: </label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Votre email">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Mot de passe: </label>
+        <input type="password" class="form-control" id="pwd" placeholder="Votre mot de passe">
+    </div>
+    <div class="form-group">
+        <label for="pwdconfirm">Confirmez votre mot de passe: </label>
+        <input type="password" class="form-control" id="pwdconfirm" placeholder="Confirmation">
+    </div>
+    <div class="form-group">
+        <label for="adress">Adresse: </label>
+        <input type="text" class="form-control" id="adress" placeholder="Votre adresse">
+    </div>
+    <div class="form-group">
+        <label for="location">Code postal: </label>
+        <input type="number" class="form-control" id="location">
+    </div>
+    <div class="form-group">
+        <label for="city">Ville: </label>
+        <input type="text" class="form-control" id="city" placeholder="Votre ville">
+    </div>
+    <div class="form-group">
+        <label for="cuisineSelect">Votre style de cuisine</label>
+        <!--TODO: faire une boucle en bdd ds les style de cuisine deja connu-->
+        <select multiple class="form-control" id="cuisineSelect">
+          <option>Mexicaine</option>
+          <option>Chinoise</option>
+          <option>Française</option>
+          <option>Japonnaise</option>
+          <option>Antillaise</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="styleculinaire">
+        <label class="form-check-label" for="styleculinaire">
+            Autre style culinaire?
+        </label>
+    </div>
+
+    <!--TODO: ajout du formulaire style si case autre style cochée-->
+    <div class="form-group">
+        <label for="other">Style culinaire </label>
+        <input type="text" class="form-control" id="other" placeholder="Votre style culinaire">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Envoi du formulaire d'inscription</button>
+</form>
+
+
+<script src="main.js"></script>
+</body>
+</html>
