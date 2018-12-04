@@ -6,7 +6,7 @@
 .contenerForm {
     display: flex;
     flex-direction: column;
-    width: 25em;
+    width: 30%;
     margin: auto;
     box-shadow: 4px 4px 2px rgb(211, 208, 208);
     border-radius: 5%;
@@ -14,12 +14,13 @@
 }
 
 #formulaire {
-    margin: 0em 2em;
+    margin: 0em 1em;
 }
 
-h3 {
+.titreform {
     display: flex;  
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 form {
