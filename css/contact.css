@@ -32,6 +32,14 @@ h1 {
     margin-bottom: 10px;
 }
 
+.Entete a {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    color: black;
+}
+
+
 /*encart contact et mentions-legales---------------------*/
 .contact, .mentions-legales{
     background-color: white;
@@ -63,6 +71,10 @@ footer {
     text-align: center;
     background-color: white;
     opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
 }
 
 footer div{

@@ -73,6 +73,9 @@ footer {
     text-align: center;
     background-color: white;
     opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 footer div{
@@ -92,5 +95,4 @@ footer div{
 
 .reseaux-sociaux img:hover{
     transform: rotate(1turn);
->>>>>>> footer
 }
