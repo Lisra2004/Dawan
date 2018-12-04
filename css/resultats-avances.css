@@ -1,0 +1,33 @@
+.card{
+    width: 18rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+.row{
+    justify-content: center;
+}
+
+.lateral-navbar{
+    max-width: 25%;
+}
+
+.advanced-result{
+    max-width: 70%;
+}
+
+hr{
+    align-content: center;
+    size: 3px;
+    width: 75%;
+    color: black;
+    opacity: 0.5;
+}
