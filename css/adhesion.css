@@ -1,10 +1,13 @@
-/* body{
+/* Style mis en place par Gabriel
+
+body{
+    background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-h1{
+ h1{
     width: 100%;
     text-align: center;
 }
@@ -34,15 +37,17 @@ form{
     box-shadow: 4px 4px 2px rgb(211, 208, 208);
     border-radius: 10px;
     padding: 1em 0em;
+    background-color: white;
 }
 
 #formulaire {
-    margin: 0em 2em;
+    margin: 0em 1em;
 }
 
-h3 {
+.titreform {
     display: flex;  
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 form {
@@ -54,11 +59,7 @@ form {
     width: 40%;
     align-self: flex-end;
 }
-.oneline {
-    display: flex;
-    justify-content: space-between;
-}
 
-.form-control {
-    margin: 2px;
+.caché {
+    display: none;
 }
