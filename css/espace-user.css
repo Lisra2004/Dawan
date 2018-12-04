@@ -1,6 +1,23 @@
-.Entete {
-    display: flex;
-    justify-content: space-around;
+/*header--------------------*/
+h1 {
+    text-align: center;
+    border: 3px solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.entete{
+    margin-bottom: 10px;
+}
+
+.entete a {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    color: black;
 }
 
 .contenerForm {
@@ -75,4 +92,34 @@ body {
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+}
+
+/*footer----------------*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+
+}
+
+footer div{
+    height: 100px;
+    width: 45%;
+}
+.reseaux-sociaux{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reseaux-sociaux a img{
+    height: 40%;
+    margin-top: 20%;
+    transition: 1s;
+}
+
+.reseaux-sociaux img:hover{
+    transform: rotate(1turn);
 }
