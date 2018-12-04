@@ -38,3 +38,7 @@ form {
 .form-control {
     margin: 2px;
 }
+
+body {
+    background-image:url("../img/Entrecote.jpg");
+}

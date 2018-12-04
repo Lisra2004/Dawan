@@ -17,6 +17,7 @@
     margin: 0em 2em;
 }
 
+
 h3 {
     display: flex;  
     justify-content: center;
@@ -42,4 +43,8 @@ form {
     background-color: white;
     opacity: 0.8;
     color: black;
+}
+
+body {
+    background-image:url("../img/Entrecote.jpg");
 }

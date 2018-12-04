@@ -46,10 +46,22 @@ justify-content: end;
     color: black;
 }
 
+.bouton4 {
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    margin:2px;
+    border: solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+}
+
 body{
 
-    color:black;
-    background-color:white;
     background-image:url("../img/Ramen.jpg");
 
 }
