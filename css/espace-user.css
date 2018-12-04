@@ -9,12 +9,12 @@
     width: 60%;
     margin: 5em auto;
     border-radius: 10px;
-    padding: 1em 0em;
+    padding: 1em 0;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 #formulaire {
-    margin: 0em 1em;
+    margin: 0 1em;
 }
 
 .titreform {
@@ -48,4 +48,31 @@ body {
 
 .form-control.oneline {
     width: 49%;
+}
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5em auto;
+    border-radius: 10px;
+    padding: 1em 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#sousdivtables {
+    display: flex;
+    padding: 1em 1em;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.évenements {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 }
