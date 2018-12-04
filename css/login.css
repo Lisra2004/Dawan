@@ -1,7 +1,29 @@
 .Entete {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    margin-top: 3em;
 }
+
+.Entete a {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    color: black;
+}
+
+h1 {
+
+    text-align: center;
+    border: 3px solid #AF3737;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.8;
+    width: 400px;
+    padding: 25px;
+    margin-bottom: 4.5rem;
+}
+
 
 .contenerForm {
     display: flex;
@@ -9,8 +31,9 @@
     width: 30%;
     margin: auto;
     box-shadow: 4px 4px 2px rgb(211, 208, 208);
-    border-radius: 5%;
+    border-radius: 5px;
     padding: 1em 0em;
+    border: 3px solid #AF3737;
 }
 
 #formulaire {
@@ -33,6 +56,16 @@ form {
     align-self: flex-end;
 }
 
+main {
+    background-color: white;
+    opacity: 0.8;
+}
+
 body {
     background-image:url("../img/Entrecote.jpg");
+
+}
+
+footer a {
+    color: black;
 }
