@@ -126,14 +126,6 @@ margin-top: 100px;
     border: 3px solid #AF3737;
 }
 
-footer {
-    display: flex;
-    text-align: center;
-    background-color: white;
-    opacity: 0.8;
-    width: 150px;
-}
-
 .global {
     display: flex;
     flex-wrap: wrap;
@@ -145,4 +137,38 @@ footer {
     justify-content: space-around;
     margin: 15px;
     flex: 1;
+}
+
+main {
+    margin-bottom: 5px;
+
+}
+
+/*footer----------------*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+}
+
+footer div{
+    height: 100px;
+    width: 45%;
+}
+.reseaux-sociaux{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reseaux-sociaux a img{
+    height: 40%;
+    margin-top: 20%;
+    transition: 1s;
+}
+
+.reseaux-sociaux img:hover{
+    transform: rotate(1turn);
 }

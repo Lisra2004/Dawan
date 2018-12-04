@@ -38,6 +38,7 @@ form{
     border-radius: 10px;
     padding: 1em 0em;
     background-color: white;
+    margin-bottom: 5px;
 }
 
 #formulaire {
@@ -67,4 +68,33 @@ form {
 body {
  background-image:url("../img/Jambon.jpg");
     background-size: 100%;
+}
+
+/*footer----------------*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+}
+
+footer div{
+    height: 100px;
+    width: 45%;
+}
+.reseaux-sociaux{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reseaux-sociaux a img{
+    height: 40%;
+    margin-top: 20%;
+    transition: 1s;
+}
+
+.reseaux-sociaux img:hover{
+    transform: rotate(1turn);
 }
