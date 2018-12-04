@@ -1,33 +1,83 @@
-.card{
-    width: 18rem;
-}
-
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.pagination{
-    justify-content: center;
+body{
+    background-image:url("../img/Ramen.jpg");
+}
+
+hr{
+align-content: center;
+size: 3px;
+width: 75%;
+color: black;
+opacity: 0.5;
+}
+
+h1 {
+    text-align: inherit;
+    border: 3px solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/*header--------------------*/
+
+.entete{
+    margin-bottom: 10px;
+}
+
+
+/*encart resultats------------------------------*/
+.card{
+    width: 18rem;
+    margin: 5px;
 }
 
 .row{
     justify-content: center;
-}
-
-.lateral-navbar{
-    max-width: 25%;
+    text-align: center;
+    padding: 15px;
 }
 
 .advanced-result{
-    max-width: 70%;
+    max-width: 60%;
 }
 
-hr{
-    align-content: center;
-    size: 3px;
-    width: 75%;
-    color: black;
-    opacity: 0.5;
+/*pourtour des encarts---------------*/
+
+.advanced-result, .lateral-navbar{
+    background-color: white;
+    border: 3px solid #AF3737;
+    border-radius: 5px;
+}
+
+/*lateral navbar------------------*/
+
+.lateral-navbar{
+    width: 220px;
+    text-align: center;
+}
+
+/*pagination encart results-------------*/
+.pagination{
+    justify-content: center;
+}
+
+h5{
+    font-family: 'Bungee', cursive;
+}
+
+/*footer----------------*/
+footer {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    width: 150px;
 }
