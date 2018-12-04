@@ -1,44 +1,21 @@
-/* Style mis en place par Gabriel
-
-body{
-    background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
- h1{
-    width: 100%;
-    text-align: center;
-}
-
-form{
-    max-width: 70%;
-    text-align: center;
-}
-
-#other{
-    visibility: hidden;
-}
-
-#other:hover{
-    visibility: visible;
-} */
-
 .Entete {
     display: flex;
     justify-content: space-around;
 }
+
 .contenerForm {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin: auto;
-    box-shadow: 4px 4px 2px rgb(211, 208, 208);
     border-radius: 10px;
     padding: 1em 0em;
-    background-color: white;
-    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20vh; /* poussé de 20% de la dimension du viewport */
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #formulaire {
