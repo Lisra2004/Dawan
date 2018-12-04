@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body{
+    background-image:url("../img/Ramen.jpg");
+}
+
+hr{
+    align-content: center;
+    size: 3px;
+    width: 75%;
+    color: black;
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: inherit;
+    border: 3px solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/*header--------------------*/
+
+.entete{
+    margin-bottom: 10px;
+}
+
+/*encart contact et mentions-legales---------------------*/
+.contact, .mentions-legales{
+    background-color: white;
+    border: 3px solid #AF3737;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+/*encart contact-------------*/
+.contact h2{
+    font-family: 'Unlock', cursive;
+}
+
+.contact div{
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+/*encart mentions legales-------------------*/
+.mentions-legales{
+
+}
+
+/*encart footer----------------*/
+footer{
+
+}

@@ -12,39 +12,46 @@
 </head>
 <body>
     <div class="contenerForm">
-        <h1>Formulaire d'adhésion</h1>
 
+        <h3 class="titreform">Formulaire d'adhésion</h3>
+
+        <!-- j'ai commenter les balises labels sur les formulaire, je trouve que ça allège les pages -->
         <form  action="" method="post" id="formulaire">
             <div class="form-group">
-                <label for="name">Votre Nom: </label>
-                <input type="text" class="form-control" id="name"  placeholder="Votre Nom">
+                <!-- <label for="id">Saisir votre identifiant :</label> -->
+                <input type="text" class="form-control" id="id"  placeholder="Saisissez votre identifiant" aria-describedby="idlHelp">
+                <small id="idHelp" class="form-text text-muted">Vous pouvez utiliser vôtre nom ou votre email par exemple</small>
             </div>
         
             <div class="form-group">
-                <label for="email">Votre email: </label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Votre email">
+                <!-- <label for="email">Votre email: </label> -->
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
             </div>
             <div class="form-group">
-                <label for="pwd">Mot de passe: </label>
-                <input type="password" class="form-control" id="pwd" placeholder="Votre mot de passe">
+                <!-- <label for="pwd">Mot de passe: </label> -->
+                <input type="password" class="form-control" id="pwd" placeholder="Mot de passe">
             </div>
             <div class="form-group">
-                <label for="pwdconfirm">Confirmez votre mot de passe: </label>
-                <input type="password" class="form-control" id="pwdconfirm" placeholder="Confirmation">
+                <!-- <label for="pwdconfirm">Confirmez votre mot de passe: </label> -->
+                <input type="password" class="form-control" id="pwdconfirm" placeholder="Confirmez votre mot de passe">
             </div>
-            <div class="form-group">
+
+            <!-- j'ai ajouté la classe caché aux champs ci-dessous
+            je pense qu'il s'agit d'une fonctionnalité avancé du site web à implémenter dans un ssecond temps-->
+
+            <div class="form-group caché">
                 <label for="adress">Adresse: </label>
                 <input type="text" class="form-control" id="adress" placeholder="Votre adresse">
             </div>
-            <div class="form-group">
+            <div class="form-group caché">
                 <label for="location">Code postal: </label>
                 <input type="number" class="form-control" id="location">
             </div>
-            <div class="form-group">
+            <div class="form-group caché">
                 <label for="city">Ville: </label>
                 <input type="text" class="form-control" id="city" placeholder="Votre ville">
             </div>
-            <div class="form-group">
+            <div class="form-group caché">
                 <label for="cuisineSelect">Votre style de cuisine</label>
                 <!--TODO: faire une boucle en bdd ds les style de cuisine deja connu-->
                 <select multiple class="form-control" id="cuisineSelect">
@@ -55,21 +62,21 @@
                     <option>Antillaise</option>
                 </select>
             </div>
-            <div class="form-check">
+            <div class="form-check caché">
                 <input class="form-check-input" type="checkbox" value="" id="styleculinaire">
                 <label class="form-check-label" for="styleculinaire">
                     Autre style culinaire?
                 </label>
             </div>
         
-            <!--TODO: ajout du formulaire style si case autre style cochée-->
-            <div class="form-group">
+            <!--TODO: ajout du formulaire style si case "autre style" cochée-->
+            <div class="form-group caché">
                 <label for="other">Style culinaire </label>
                 <input type="text" class="form-control" id="other" placeholder="Votre style culinaire">
             </div>
         
         
-            <button type="submit" class="btn btn-primary">Envoi du formulaire d'inscription</button>
+            <button type="submit" class="btn btn-primary">Souscrire</button>
         </form>
     </div>
 
