@@ -10,6 +10,42 @@ h1 {
 
 }
 
+.bouton {
+    display: flex;
+justify-content: end;
+
+}
+
+.bouton1  {
+
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    margin:2px;
+    border: solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+}
+
+.bouton2 {
+
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    margin:2px;
+    border: solid #AF3737;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+}
+
 body{
 
     color:black;
@@ -24,6 +60,7 @@ body{
     text-align: center;
     flex-direction: column;
 
+
 }
 
 .recherche {
@@ -32,7 +69,6 @@ body{
     text-align: center;
     justify-content: center;
     margin: 100px;
-
 
 }
 
@@ -44,6 +80,7 @@ article {
     width: 80%;
     margin: 0 auto;
     max-width: 100em;
+    border: 3px solid #AF3737;
 }
 
 ul {
@@ -58,6 +95,7 @@ ul {
     opacity: 0.8;
 margin-top: 100px;
     padding: 25px;
+    border: 3px solid #AF3737;
 }
 
 footer {
@@ -71,6 +109,7 @@ footer {
 .global {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .global li  {
